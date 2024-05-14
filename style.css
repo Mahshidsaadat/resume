@@ -1,6 +1,6 @@
 h1{ color:white; font-size:30px;
  background-image:url('back.jpg');
- background-position:center center;
+ background-position:left;
  padding:28px; text-decoration:underline;
   text-align:center; border-radius: 15px}
 
@@ -11,9 +11,10 @@ word-spacing: 0.8em;
 
  }
 
- 
+
 
  .list {  background-image:url('back.jpg');
+ background-position: left;
 
  ; line-height: 1.4em;}
 
@@ -26,10 +27,26 @@ a {color:#023020; font-weight: 20px}
 
 table, th, td { border:1px solid; text-align: center;
   background-image:url('back.jpg');
- ; font-family:verdana, sans-serif ;}
+ ; font-family:verdana, sans-serif ; font-size: 15px}
 
 
-table {width:70%;}
+table {width:80%; margin-right: auto; margin-left: auto}
+
+
+img { display:block; max-width:50%; }
+
+.container {
+	width:90%; margin:auto;
+}
+
+
+
+
+
+
+
+
+
 
 
 
