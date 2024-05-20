@@ -1,8 +1,10 @@
-h1{ color:white; font-size:30px;
+header 
+{ color:white; font-size:30px;
  background-image:url('back.jpg');
  background-position:left;
- padding:28px; text-decoration:underline;
-  text-align:center; border-radius: 15px}
+ padding:0 30px; text-decoration:underline;
+  text-align:center; border-radius: 15px
+ margin:auto; width: 90%}
 
 
 h2,h3,h4 { background-color:#ffb6c1; color:white;
@@ -33,14 +35,22 @@ table, th, td { border:1px solid; text-align: center;
 table {width:80%; margin-right: auto; margin-left: auto}
 
 
-img { display:block; max-width:50%; }
+img { max-width:120%; }
 
 .container {
-	width:90%; margin:auto;
+	width:90%; margin:auto; padding: 0 30px
 }
 
 
+.boxes{ justify-content: space-around; display: flex; 
+	align-items: center; margin: auto;;padding: 0 30px;
 
+}
+
+
+.box {
+	flex-grow: 1;
+}
 
 
 
